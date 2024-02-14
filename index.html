@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch/case</title>
+</head>
+<body>
+    <h1>Use um switch para exibir mensagens diferentes com base em uma condição.</h1>
+    <script>
+        function Mensagem(condicao) {
+    switch (condicao) {
+        case "Triste":
+            console.log("Salmos 43:5.");
+            break;
+        case "Aflito":
+            console.log("João 14:1.");
+            break;
+        case "Animo":
+            console.log("Jó 19:25.");
+            break;
+        default:
+            console.log("Salmos 100:4-5.");
+    }
+}
+
+
+let condicao = "Animo"; 
+Mensagem(condicao);
+    </script>
+</body>
+</html>
